@@ -2,7 +2,7 @@
 
 > A Snake Game
 
-![image](https://github.com/fei419881361/SnakeGame/blob/main/src/assets/效果.GIF)
+![image](https://github.com/fei419881361/SnakeGame/blob/main/src/assets/result.gif)
 说明：运行效果图
 
 ## Build Setup
