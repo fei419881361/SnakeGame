@@ -16,7 +16,7 @@ export default {
   data() {
     return {
       appleImgSrc: "../assets/apple.jpg",
-      msg: "Welcome to Your Snake Game, you have eat ",
+      msg: "Welcome to Your Snake Game, You've already eaten ",
       eatCount:0,
       ctx: null,
       mySnakeNode: [],
@@ -42,12 +42,6 @@ export default {
       this.ctx = canvas.getContext("2d");
       var w = this.mapWide;
       var h = this.mapHeight;
-      // let apple = {
-      //   x: 160,
-      //   y: 260,
-      // };
-      // this.apples.push(apple);
-      // this.drawApple();
       var i = setInterval(() => {
         this.ctx.clearRect(0, 0, w, h);
         if (this.moveQueue != null && this.moveQueue.length != 0) {
@@ -78,7 +72,6 @@ export default {
         this.ctx.fill();
       });
       
-      // this.moveController(this.moveX, this.moveY, this.mySnakeNode[0]);
     },
     drawApple: function () {
       var apple = document.getElementById("apple");
