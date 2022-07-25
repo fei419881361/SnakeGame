@@ -1,6 +1,9 @@
 # snake
 
-> A Vue.js project
+> A Snake Game
+
+![image](https://github.com/fei419881361/SnakeGame/blob/main/src/assets/效果.GIF)
+说明：
 
 ## Build Setup
 
